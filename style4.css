@@ -1,0 +1,202 @@
+body{
+      margin: 0%;
+      background-color:teal;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+.container{
+      width: 300px;
+      height: 300px;
+      margin-left: 5vb;
+      box-shadow: 16px 14px 20px #0000008c;
+      border-radius: 2px;
+      position: relative;
+      overflow:visible;
+      border-color: rgb(231, 12, 12);
+    }
+.box0{
+      width: 100px;
+      height: 100px;
+      background-color: white;
+      animation-name: slide-in;
+      animation-fill-mode: both;
+      animation-duration:1s;
+     
+     
+    }
+@keyframes slide-in{
+  0%{
+    transform: translate(0px);
+  }
+  100%{
+    transform: translate(200px);
+  }
+
+}
+.box1{
+      width: 100px;
+      height: 100px;
+      background-color: rgb(175, 231, 21);
+      animation-duration:1s;
+      animation-name: slide-in1;
+      animation-fill-mode: both;
+      animation-delay: 5s;
+    }
+@keyframes slide-in1{
+  0%{
+    transform: translate(200px);
+  }
+  100%{
+    transform: translate(0px);
+  }
+
+}
+.box2{
+      width: 100px;
+      height: 100px;
+      background-color:white;
+      animation-duration:1s;
+      animation-name: slide-in2;
+      animation-fill-mode: both;
+      animation-delay: 6s;
+
+    }
+@keyframes slide-in2{
+  0%{
+    transform: translate(0px);
+  }
+  100%{
+    transform: translate(200px);
+  }
+}
+.container2{
+  width: 300px;
+      height: 300px;
+      margin-left: 5vb;
+      box-shadow: 16px 14px 20px #0000008c;
+      border-radius: 2px;
+      position: relative;
+      overflow:visible;
+      border-color: rgb(231, 12, 12);
+    } 
+.box3{
+      width: 100px;
+      height: 100px;
+      background-color: rgb(44, 5, 117);
+      animation-name: slide-in3;
+      animation-duration:1s;
+      animation-fill-mode: both;
+      animation-delay: 1s;
+   
+    }
+@keyframes slide-in3{
+  0%{
+    transform: translate(0px);
+  }
+  100%{
+    transform: translate(200px);
+  }
+}
+.box4{
+      width: 100px;
+      height: 100px;
+      background-color: rgba(247, 4, 154, 0.939);
+      animation-duration:1s;
+      animation-name: slide-in4;
+      animation-fill-mode: both;
+      animation-delay: 4s;   
+}
+@keyframes slide-in4{
+  0%{
+    transform: translate(200px);
+  }
+  100%{
+    transform: translate(0px);
+  }
+
+}
+.box5{
+      width: 100px;
+      height: 100px;
+      background-color:rgb(44, 5, 117);
+      animation-duration:1s;
+      animation-delay: 7s;
+      animation-name: slide-in6;
+      animation-fill-mode: both;
+    }
+
+@keyframes slide-in6{
+  0%{
+    transform: translate(0px);
+  }
+  100%{
+    transform: translate(200px);
+  }
+}        
+.container1
+{
+      width: 300px;
+      height: 300px;
+      margin-left: 5vb;
+      box-shadow: 16px 14px 20px #0000008c;
+      border-radius: 2px;
+      position: relative;
+      overflow:visible;
+      border-color: rgb(231, 12, 12);
+
+}
+.box6{
+      width: 100px;
+      height: 100px;
+      background-color: rgb(230, 145, 200);
+      animation-name: slide-in6;
+      animation-duration:1s;
+      animation-fill-mode: both;
+      animation-delay: 2s;
+
+      }
+@keyframes slide-in6{
+  0%{
+    transform: translate(0px);
+  }
+  100%{
+    transform: translate(200px);
+  }
+}
+.box7{
+      width: 100px;
+      height: 100px;
+      background-color: #26f706;
+      animation-duration:1s;
+      animation-name: slide-in7;
+      animation-fill-mode: both;
+      animation-delay: 3s;
+
+    }
+@keyframes slide-in7{
+  0%{
+    transform: translate(200px);
+  }
+  100%{
+    transform: translate(0px);
+  }
+}
+.box8{
+      width: 100px;
+      height: 100px;
+      background-color: rgb(230, 145, 200);
+      animation-duration:1s;
+      animation-name: slide-in2;
+      animation-fill-mode: both;
+      animation-delay: 8s;
+    }
+@keyframes slide-in8{
+  0%{
+    transform: translate(0px);
+  }
+  100%{
+    transform: translate(200px);
+  }
+}
